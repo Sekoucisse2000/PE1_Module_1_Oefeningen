@@ -8,6 +8,11 @@ const userInput = readline.createInterface({input, output});
 
 // Voeg hier je eigen code in
 
+let som;
+let getaal1 = parseFloat( await userInput.question('Geef een eerst getaal in? '));
+let getaal2 = parseFloat( await userInput.question('Geef een tweede getaal in? '));
+som = getaal1 + getaal2;
 
+console.log('Het som van de getalen dit heeft ingegeven is: ');
 
 process.exit();
